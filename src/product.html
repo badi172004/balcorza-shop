@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .header-background {
+          background-color: wheat;
+        }
+      
+        .header-background:hover {
+          background-color: #ccc;
+        }
+      
+        .header-links a {
+          color: black; /* Set the default color of the links */
+          transition: color 0.3s ease; /* Smooth transition for the color change */
+        }
+      
+        .header-links a:hover {
+          color: white; /* Change the color of the links on hover */
+        }
+      </style>
+      <div id="root">
+        <div>
+          <div>
+            <div class="flex py-4 px-8 items-center justify-between gap-10 header-background">
+              <div class="flex w-1/6 lg:w-1/2 gap-5 header-links">
+                <i class="fa-solid fa-bars text-2xl"></i>
+                <div class="hidden lg:flex items-center gap-5">
+                  <a href="index.html" class="text-2xl">Home</a>
+                  <a href="product.html" class="text-2xl">Product</a>
+                  <a href="category.html" class="text-2xl">Category</a>
+                  <a href="contacts.html" class="text-2xl">Contact</a>
+                </div>              
+              </div>
+            </div>
+          </div>
+          <!-- Rest of your content -->
+        </div>
+      </div>
+    <!-- Product Details Section -->
+    <div class="flex justify-center">
+        <!-- First Product -->
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="px-6 py-4">
+                <!-- Product Image -->
+                <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2eff461f-f3ac-4285-9c6a-2f22173aac42/custom-nike-air-force-1-low-by-you.png" alt="Product Image" class="w-full mb-11">
+                <!-- Product Name -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2"> nike"</h2>
+                <!-- Product Description -->
+                <p class="text-gray-600 mb-6"> .</p>
+                <!-- Product Price -->
+                <p class="text-gray-800 font-bold mb-2">₱19.451,60</p>
+                <!-- Add to Cart Button -->
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+
+        <!-- Second Product -->
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="px-6 py-4">
+                <!-- Product Image -->
+                <img src="https://img.lazcdn.com/g/ff/kf/S31412624eecd412fa1f2ff78fabbb5dcj.jpg_720x720q80.jpg" alt="Product Image" class="w-40 md:w-full mb-14">
+                <!-- Product Name -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">jordan</h2>
+                <!-- Product Description -->
+                <p class="text-gray-600 mb-6">.</p>
+                <!-- Product Price -->
+                <p class="text-gray-800 font-bold mb-2">₱6,800</p>
+                <!-- Add to Cart Button -->
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="px-6 py-4">
+                <!-- Product Image -->
+                <img src="https://i.ytimg.com/vi/ePU17KkP2ac/sddefault.jpg" alt= "Product Image" class="w-30 md:w-30 mb-14">
+                <!-- Product Name -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">jordan 4</h2>
+                <!-- Product Description -->
+                <p class="text-gray-600 mb-6">.</p>
+                <!-- Product Price -->
+                <p class="text-gray-800 font-bold mb-2">₱2,995.00</p>
+                <!-- Add to Cart Button -->
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="px-6 py-4">
+                <!-- Product Image -->
+                <img src="https://brand.assets.adidas.com/image/upload/PAC_ORIGINALS_SHOES_PLP_IWP_TILE_CAMPUS_5e49714426.jpg" alt="Product Image" class="w-full mb-1">
+                <!-- Product Name -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">adidas original </h2>
+                <!-- Product Description -->
+                <p class="text-gray-600 mb-6"> .</p>
+                <!-- Product Price -->
+                <p class="text-gray-800 font-bold mb-2">$99.99</p>
+                <!-- Add to Cart Button -->
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+        <div class="max-w-md mx-2 bg-white rounded-lg overflow-hidden shadow-md">
+            <div class="px-6 py-4">
+                <!-- Product Image -->
+                <img src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2ca73f8cd659456b84707e2ce9d033e5_9366/Galaxy_6_Shoes_Grey_IE1989_HM1.jpg"  alt="Product Image" class="w-fullrem mb-100">
+                <!-- Product Name -->
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">adidas galaxy</h2>
+                <!-- Product Description -->
+                <p class="text-gray-600 mb-6">.</p>
+                <!-- Product Price -->
+                <p class="text-gray-800 font-bold mb-2">₱12,500.00</p>
+                <!-- Add to Cart Button -->
+                <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

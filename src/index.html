@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <title>React App</title>
+</head>
+<body>
+  <style>
+    .header-background {
+      background-color: rgb(22, 233, 205);
+    }
+  
+    .header-background:hover {
+      background-color: #ccc;
+    }
+  
+    .header-links a {
+      color: black; /* Set the default color of the links */
+      transition: color 0.3s ease; /* Smooth transition for the color change */
+    }
+  
+    .header-links a:hover {
+      color: white; /* Change the color of the links on hover */
+    }
+  </style>
+  <div id="root">
+    <div>
+      <div>
+        <div class="flex py-4 px-8 items-center justify-between gap-10 header-background">
+          <div class="flex w-1/6 lg:w-1/2 gap-5 header-links">
+            <i class="fa-solid fa-bars text-2xl"></i>
+            <div class="hidden lg:flex items-center gap-5">
+              <a href="index.html" class="text-2xl">Home</a>
+              <a href="product.html" class="text-2xl">Product</a>
+              <a href="category.html" class="text-2xl">Category</a>
+              <a href="contacts.html" class="text-2xl">Contact</a>
+            </div>              
+          </div>
+        </div>
+      </div>
+      <!-- Rest of your content -->
+    </div>
+  </div>
+  <div class="max-w-[1500px] mx-auto p-4">
+    <div class="relative max-h-[500px]">
+        <div class="absolute w-full h-full max-h-[500px] bg-black/45 text-gray-100 flex flex-col justify-center leading-3" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">
+            <h1 class="text-center text-4xl font-bold">"Step into style and comfort with our latest collection of kicks shoes. From timeless classics to cutting-edge designs, our kicks are crafted to elevate your look while providing unparalleled comfort with every step. Whether you're hitting the streets or lounging with friends, our kicks are the perfect blend of fashion and functionality. Discover your perfect pair today and step up your shoe game!"</h1>
+        </div>
+        <img class="object-cover h-full w-full transition duration-500 ease-in-out transform hover:scale-110" src="https://pics.craiyon.com/2023-05-26/de27e04fbfaa4261924556c1455df611.webp">
+    </div>
+</div>
+
+  <div class="max-w-[1500px] mx-auto p-4">
+    <div>
+      <div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

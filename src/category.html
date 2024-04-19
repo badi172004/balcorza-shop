@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <style>
+        .header-background {
+          background-color: wheat;
+        }
+      
+        .header-background:hover {
+          background-color: #ccc;
+        }
+      
+        .header-links a {
+          color: black; /* Set the default color of the links */
+          transition: color 0.3s ease; /* Smooth transition for the color change */
+        }
+      
+        .header-links a:hover {
+          color: white; /* Change the color of the links on hover */
+        }
+      </style>
+    <div>
+
+        <div>
+          <div class="flex py-4 px-8 items-center justify-between gap-10">
+            <div class="flex w-1/6 lg:w-1/2 gap-5">
+              <i class="fa-solid fa-bars text-2xl"></i>
+              <div class="hidden lg:flex items-center gap-5">
+                  <a href="index.html" class="text-2xl">Home</a>
+                  <a href="product.html" class="text-2xl">Product</a>
+                  <a href="category.html" class="text-2xl">Category</a>
+                  <a href="contacts.html" class="text-2xl">Contact</a>
+                </div>              
+          </div>
+        </div>
+      </div>
+      <br><br><br><div class="bg-gray flex items-center justify-center mt-10">
+        <div class="max-w-8xl mx-10 bg-white overflow-hidden shadow-md grid grid-cols-4 gap-4">
+            <div class="relative group">
+                <img src="https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo.png"
+                    alt="Image 1" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                        <p class="text-white py-2 text-4xl font-bold">Browse</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">nike</h2>
+                    <p class="text-gray-600"></p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="https://www.shutterstock.com/image-vector/jordan-air-icon-logo-sign-600nw-2275816237.jpg"
+                    alt="Image 2" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                        <p class="text-white py-2 text-4xl font-bold">Browse</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">jordan</h2>
+                    <p class="text-gray-600">.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRv8wALvpY4O2Bm2fAvxNMiLpTPL1QCNv-soSn4VorWQ&s"
+                    alt="Image 3" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                    <p class="text-white py-2 text-4xl font-bold">jordan</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">adidas original</h2>
+                    <p class="text-gray-600"></p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6nDNU9Zm9wihI6aKptGI1g9q_Cgd98BX8YWjYaTpdhw&s"
+                    alt="Image 4" class="w-full h-150 object-cover">
+                    <div class="absolute inset-0 bg-black opacity-0 group-hover:opacity-75 transition-opacity flex justify-center items-center">
+                        <p class="text-white py-2 text-4xl font-bold">adidas galaxy</p>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-white text-center py-1 px-6">
+                    <h2 class="text-xl font-semibold">jordan</h2>
+                    <p class="text-gray-600">.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
